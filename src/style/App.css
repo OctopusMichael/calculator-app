@@ -306,7 +306,7 @@ input {
   grid-area: 5/1/5/3;
   width: 140px;
   color: var(--white);
-  font-size: 30px;
+  font-size: 20px;
   background-color: var(--BlueKeyBg);
   border-bottom: 5px solid var(--BluekeyShadow);
 }
@@ -316,14 +316,14 @@ input {
   width: 140px;
   color: white;
   border-bottom: 5px solid var(--redKeyShadow);
-  font-style: 30px;
+  font-size: 20px;
 }
 .buttons.btn-one#delete {
   background-color: var(--BlueKeyBg);
   border-bottom: 5px solid var(--BluekeyShadow);
   color: var(--white);
   font-size: 20px;
-  font-style: 35px;
+  
 }
 .buttons.btn-one#reset:hover {
   background-color: rgb(127, 172, 209);
@@ -348,6 +348,7 @@ input {
   grid-area: 5/3/5/5;
   width: 140px;
   color: white;
+  font-size: 20px;
   border-bottom: 5px solid var(--redKeyShadow);
 }
 .buttons.btn-two#delete {
@@ -379,7 +380,7 @@ input {
   width: 140px;
   color: black;
   border-bottom: 5px solid var(--softCyan);
-  font-size: 24px;
+  font-size: 20px;
 }
 .buttons.btn-three#delete {
   background-color: var(--darkViolet);
@@ -455,21 +456,27 @@ input {
 
   .buttons.btn-one#reset{
     width: 260px ;
+    font-size: 30px;
   }
   .buttons.btn-one#equal{
     width: 260px ;
+    font-size: 30px;
   }
   .buttons.btn-two#reset{
     width: 260px ;
+    font-size: 30px;
   }
   .buttons.btn-two#equal{
     width: 260px ;
+    font-size: 30px;
   }
   .buttons.btn-three#reset{
     width: 260px ;
+    font-size: 30px;
   }
   .buttons.btn-three#equal{
     width: 260px ;
+    font-size: 30px;
   }
 
   input {
